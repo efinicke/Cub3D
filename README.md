@@ -77,6 +77,5 @@ Run the program with a .cub file specifying the map:
 
 ## Links
 
-[An amazing Cub3D with an interresting README.md](https://github.com/iciamyplant/Cub3d-Linux)
-
-[Make our own Raycaster course](https://www.youtube.com/watch?v=gYRrGTC7GtA)
+- [An amazing Cub3D with an interresting README.md](https://github.com/iciamyplant/Cub3d-Linux)
+- [Make our own Raycaster course](https://www.youtube.com/watch?v=gYRrGTC7GtA)
