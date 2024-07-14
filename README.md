@@ -17,7 +17,7 @@
 
 ## Project Overview
 
-Cub3D, developed in C with MinilibX, draws inspiration from classic first-person shooters like Wolfenstein 3D. It immerses users in a 3D maze environment using ray-casting for real-time rendering. Project challenges included parsing scene descriptions, rendering textured walls, implementing player movement controls, and efficient window management.
+Cub3D, developed in C with MinilibX, draws inspiration from classic first-person shooters like Wolfenstein 3D. It immerses users in a 3D maze environment using ray-casting for real-time rendering. Project challenges included parsing scene descriptions, rendering textured walls, implementing player movement controls, and efficient window management, and as a bonus a small 2D minimap, for localize you in the maze.
 
 This project is the sequel to a first successful collaboration between [Stephane Payeur](https://github.com/s-payeur) and myself — apparently lightning does strike twice! — showcasing our ability to deliver outstanding outcomes ;).
 
@@ -34,7 +34,7 @@ This project is the sequel to a first successful collaboration between [Stephane
 
 - **Makefile**: Compilation and project organization.
 - **PixelTexturePack/**: Organized texture pack by type.
-- **basic.cub**: Main configuration file.
+- **basic.cub**: A map file to use with the executable.
 - **includes/**: header file cub3d.h.
 - **libft/**: Library with utility functions in C.
 - **miniLibX/**: MiniLibX for window management and rendering.
