@@ -79,3 +79,4 @@ Run the program with a .cub file specifying the map:
 
 - [An amazing Cub3D with an interresting README.md](https://github.com/iciamyplant/Cub3d-Linux)
 - [Make our own Raycaster course](https://www.youtube.com/watch?v=gYRrGTC7GtA)
+- [Pixel drawing with MinilibX](https://aurelienbrabant.fr/blog/pixel-drawing-with-the-minilibx)
