@@ -19,7 +19,7 @@
 
 Cub3D, developed in C with MinilibX, draws inspiration from classic first-person shooters like Wolfenstein 3D. It immerses users in a 3D maze environment using ray-casting for real-time rendering. Project challenges included parsing scene descriptions, rendering textured walls, implementing player movement controls, and efficient window management.
 
-This project is the sequel to a first successful collaboration between [Stephane Payeur](https://github.com/s-payeur) and myself — apparently lightning does strike twice! — showcasing our ability to deliver outstanding outcomes with a touch of humor.
+This project is the sequel to a first successful collaboration between [Stephane Payeur](https://github.com/s-payeur) and myself — apparently lightning does strike twice! — showcasing our ability to deliver outstanding outcomes ;).
 
 
 ## Features
