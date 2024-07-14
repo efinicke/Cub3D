@@ -1,0 +1,223 @@
+.
+├── README.md
+├── project
+│   ├── Makefile
+│   ├── PixelTexturePack
+│   │   └── Textures
+│   │       ├── Bricks
+│   │       │   ├── BIGBRICKS.png
+│   │       │   ├── CASTLEBRICKS.png
+│   │       │   ├── CLAYBRICKS.png
+│   │       │   ├── DUNGEONBRICKS.png
+│   │       │   ├── DUNGEONCELL.png
+│   │       │   ├── GOOBRICKS.png
+│   │       │   ├── PORCELAINBRICKS.png
+│   │       │   ├── REDBRICKS.png
+│   │       │   ├── ROUNDBRICKS.png
+│   │       │   └── SLIMBRICKS.png
+│   │       ├── BuildingTextures
+│   │       │   ├── BRICKS.png
+│   │       │   ├── BRICKSBOTLEFT.png
+│   │       │   ├── BRICKSBOTMID.png
+│   │       │   ├── BRICKSBOTRIGHT.png
+│   │       │   ├── BRICKSTOPLEFT.png
+│   │       │   └── BRICKSTOPRIGHT.png
+│   │       ├── Doors
+│   │       │   ├── CREAKYDOOR.png
+│   │       │   ├── OFFICEDOOR.png
+│   │       │   └── SPOOKYDOOR.png
+│   │       ├── Elements
+│   │       │   ├── BIGLEAVES.png
+│   │       │   ├── LAVA.png
+│   │       │   ├── RAPIDS.png
+│   │       │   ├── SAND.png
+│   │       │   ├── SANDMARKS.png
+│   │       │   ├── SNOW.png
+│   │       │   ├── TALLGRASS.png
+│   │       │   ├── TINYLEAVES.png
+│   │       │   └── WATER.png
+│   │       ├── Industrial
+│   │       │   ├── CROSSCUBE.png
+│   │       │   ├── CROSSWALL.png
+│   │       │   ├── METALTILE.png
+│   │       │   ├── PIPES.png
+│   │       │   ├── STORAGE.png
+│   │       │   └── SUPPORT.png
+│   │       ├── License.txt
+│   │       ├── Readme.txt
+│   │       ├── Rocks
+│   │       │   ├── DIRT.png
+│   │       │   ├── FLATSTONES.png
+│   │       │   ├── GOLDROCKS.png
+│   │       │   ├── GRAYROCKS.png
+│   │       │   ├── ICEYROCKS.png
+│   │       │   ├── LAVAROCKS.png
+│   │       │   ├── PATHROCKS.png
+│   │       │   └── SLIMROCKS.png
+│   │       ├── Tech
+│   │       │   ├── BIGSQUARES.png
+│   │       │   ├── DENTWALL.png
+│   │       │   ├── DIRTHEXAGONS.png
+│   │       │   ├── DOUBLELIGHTS.png
+│   │       │   ├── HEXAGONS.png
+│   │       │   ├── HIGHTECH.png
+│   │       │   ├── HIGHTECHWALL.png
+│   │       │   ├── LONGLIGHTS.png
+│   │       │   ├── STARWALLA.png
+│   │       │   ├── STARWALLB.png
+│   │       │   ├── TECHWALLA.png
+│   │       │   ├── TECHWALLB.png
+│   │       │   ├── TINYLIGHTS.png
+│   │       │   └── TINYSQUARES.png
+│   │       ├── Urban
+│   │       │   ├── BIGWINDOW.png
+│   │       │   ├── CHESS.png
+│   │       │   ├── GARAGE.png
+│   │       │   ├── GRAYWALL.png
+│   │       │   ├── PAVEMENT.png
+│   │       │   └── WINDOW.png
+│   │       └── Wood
+│   │           ├── BIGTRUNK.png
+│   │           ├── CREAKYWOOD.png
+│   │           ├── DARKWOOD.png
+│   │           ├── TRUNKS.png
+│   │           ├── WOODA.png
+│   │           ├── WOODB.png
+│   │           └── WOODTILE.png
+│   ├── basic.cub
+│   ├── includes
+│   │   └── cub3d.h
+│   ├── libft
+│   │   ├── Makefile
+│   │   ├── ft_bzero.c
+│   │   ├── ft_isdigit.c
+│   │   ├── ft_isspace.c
+│   │   ├── ft_putchar_fd.c
+│   │   ├── ft_putstr_fd.c
+│   │   ├── ft_strlen.c
+│   │   ├── ft_strncmp.c
+│   │   ├── get_next_line.c
+│   │   ├── get_next_line_utils.c
+│   │   └── libft.h
+│   ├── miniLibX
+│   │   ├── LICENSE
+│   │   ├── Makefile
+│   │   ├── Makefile.gen
+│   │   ├── Makefile.mk
+│   │   ├── README.md
+│   │   ├── configure
+│   │   ├── man
+│   │   │   ├── man1
+│   │   │   │   ├── mlx.1
+│   │   │   │   ├── mlx_loop.1
+│   │   │   │   ├── mlx_new_image.1
+│   │   │   │   ├── mlx_new_window.1
+│   │   │   │   └── mlx_pixel_put.1
+│   │   │   └── man3
+│   │   │       ├── mlx.3
+│   │   │       ├── mlx_loop.3
+│   │   │       ├── mlx_new_image.3
+│   │   │       ├── mlx_new_window.3
+│   │   │       └── mlx_pixel_put.3
+│   │   ├── mlx.h
+│   │   ├── mlx_clear_window.c
+│   │   ├── mlx_destroy_display.c
+│   │   ├── mlx_destroy_image.c
+│   │   ├── mlx_destroy_window.c
+│   │   ├── mlx_expose_hook.c
+│   │   ├── mlx_ext_randr.c
+│   │   ├── mlx_flush_event.c
+│   │   ├── mlx_get_color_value.c
+│   │   ├── mlx_get_data_addr.c
+│   │   ├── mlx_hook.c
+│   │   ├── mlx_init.c
+│   │   ├── mlx_int.h
+│   │   ├── mlx_int_anti_resize_win.c
+│   │   ├── mlx_int_do_nothing.c
+│   │   ├── mlx_int_get_visual.c
+│   │   ├── mlx_int_param_event.c
+│   │   ├── mlx_int_set_win_event_mask.c
+│   │   ├── mlx_int_str_to_wordtab.c
+│   │   ├── mlx_int_wait_first_expose.c
+│   │   ├── mlx_key_hook.c
+│   │   ├── mlx_lib_xpm.c
+│   │   ├── mlx_loop.c
+│   │   ├── mlx_loop_hook.c
+│   │   ├── mlx_mouse.c
+│   │   ├── mlx_mouse_hook.c
+│   │   ├── mlx_new_image.c
+│   │   ├── mlx_new_window.c
+│   │   ├── mlx_pixel_put.c
+│   │   ├── mlx_put_image_to_window.c
+│   │   ├── mlx_rgb.c
+│   │   ├── mlx_screen_size.c
+│   │   ├── mlx_set_font.c
+│   │   ├── mlx_string_put.c
+│   │   ├── mlx_xpm.c
+│   │   ├── mlx_xpm.c.ok
+│   │   ├── rgb2c.pl
+│   │   └── test
+│   │       ├── Makefile.gen
+│   │       ├── Makefile.mk
+│   │       ├── main.c
+│   │       ├── new_win.c
+│   │       ├── open.xpm
+│   │       ├── open24.xpm
+│   │       ├── open30.xpm
+│   │       └── run_tests.sh
+│   ├── srcs
+│   │   ├── cub3d.c
+│   │   ├── drawing
+│   │   │   ├── circ.c
+│   │   │   ├── draw_utils.c
+│   │   │   ├── line.c
+│   │   │   ├── mlx_linux_workaround.c
+│   │   │   └── rect.c
+│   │   ├── events
+│   │   │   ├── on_destroy.c
+│   │   │   ├── on_keydown.c
+│   │   │   └── on_keyup.c
+│   │   ├── game_loop.c
+│   │   ├── parsing
+│   │   │   ├── check_map.c
+│   │   │   ├── check_missing_element.c
+│   │   │   ├── normalize_map.c
+│   │   │   ├── parse_color.c
+│   │   │   ├── parse_cub_file.c
+│   │   │   ├── parse_line.c
+│   │   │   ├── parse_map.c
+│   │   │   ├── parse_player.c
+│   │   │   ├── parse_texture.c
+│   │   │   └── parse_utils.c
+│   │   ├── raycasting
+│   │   │   ├── raycasting.c
+│   │   │   └── raycasting_utils.c
+│   │   ├── rendering
+│   │   │   ├── generate_3d_projection.c
+│   │   │   ├── generate_wall_projection.c
+│   │   │   ├── minimap_render.c
+│   │   │   ├── rays_render.c
+│   │   │   └── render.c
+│   │   ├── structures
+│   │   │   ├── cub.c
+│   │   │   ├── img.c
+│   │   │   ├── init_and_destroy_wall_textures.c
+│   │   │   ├── minimap.c
+│   │   │   ├── player.c
+│   │   │   └── point.c
+│   │   └── utils.c
+│   └── textures
+│       ├── blue.xpm
+│       ├── blue_HD.xpm
+│       ├── green.xpm
+│       ├── green_HD.xpm
+│       ├── red.xpm
+│       ├── red_HD.xpm
+│       ├── violet.xpm
+│       └── violet_HD.xpm
+├── screen.png
+├── subject
+│   └── cub3d_fr.subject.pdf
+└── tree.txt
+
+28 directories, 192 files

@@ -32,8 +32,14 @@ This project is the sequel to a first successful collaboration between [Stephane
 
 ## Content
 
-- **Mandatory Part**: Implements essential features required by project specifications, including scene description parsing, textured wall rendering, player control management, and adherence to file input/output operations as specified.
-- **Bonus Features**: Optionally includes additional features such as sprite rendering, mini-map display, or enhanced graphical effects (if applicable and implemented).
+- **Makefile**: Compilation and project organization.
+- **PixelTexturePack/**: Organized texture pack by type.
+- **basic.cub**: Main configuration file.
+- **includes/**: header file cub3d.h.
+- **libft/**: Library with utility functions in C.
+- **miniLibX/**: MiniLibX for window management and rendering.
+- **srcs/**: Project source code, organized into functional modules.
+
 
 
 ## Usage
@@ -72,4 +78,5 @@ Run the program with a .cub file specifying the map:
 ## Links
 
 [An amazing Cub3D with an interresting README.md](https://github.com/iciamyplant/Cub3d-Linux)
+
 [Make our own Raycaster course](https://www.youtube.com/watch?v=gYRrGTC7GtA)
